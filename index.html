@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Web Page Title</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <!-- script src="scripts/jquery-3.4.1.min.js"></script -->
+  <script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+  <script src="scripts/velocity.min.js"></script>
+  <script src="scripts/scripts.js"></script>
+    
+</head>
+<body>
+<button type="button" id="leftEarButton">Left Ear</button>
+<button type="button" id="rightEarButton">Left Ear</button>
+<button type="button" id="rightArmButton">Right Arm</button>
+<button type="button" id="leftArmButton">Left Arm</button>
+<button type="button" id="rightLegButton">Right Leg</button>
+<button type="button" id="leftLegButton">Left Leg</button>
+<button type="button" id="bodyButton">Body</button>
+<button type="button" id="faceButton">Face</button>
+
+<div id="wrapper">
+
+  <div class="bunny_container">
+    <svg width="100%" height="100%" viewBox="0 0 100 100">
+
+<g id="leftEar" transform="matrix(-1, 0, 0, 1, 100.78051, 0.897396)">
+  <path d="M 63.55 3.821 C 66.847 3.821 67.43 10.224 67.815 13.861 C 68.39 19.308 68.343 25.198 66.326 30.106 C 65.621 31.824 61.886 31.861 61.141 30.106 C 55.9 17.771 60.183 3.821 63.55 3.821 Z" style="fill: rgb(216, 216, 216); stroke: rgb(66, 61, 61); paint-order: stroke;" transform="matrix(0.855646, 0.517562, -0.517562, 0.855646, 18.270245, -30.275975)"></path>
+  <path d="M 61.318 13.521 C 63.941 13.521 64.405 17.15 64.711 19.21 C 65.168 22.297 65.13 25.634 63.526 28.416 C 62.966 29.39 59.995 29.411 59.402 28.416 C 55.233 21.426 58.64 13.521 61.318 13.521 Z" style="paint-order: stroke; fill: rgb(207, 78, 196);" transform="matrix(0.855646, 0.517562, -0.517562, 0.855646, 19.879066, -28.598195)"></path>
+</g>
+
+
+<g id="rightEar" transform="matrix(1, 0, 0, 1, -0.515455, 1.374568)">
+  <path d="M 63.55 3.821 C 66.847 3.821 67.43 10.224 67.815 13.861 C 68.39 19.308 68.343 25.198 66.326 30.106 C 65.621 31.824 61.886 31.861 61.141 30.106 C 55.9 17.771 60.183 3.821 63.55 3.821 Z" style="fill: rgb(216, 216, 216); stroke: rgb(66, 61, 61); paint-order: stroke;" transform="matrix(0.855646, 0.517562, -0.517562, 0.855646, 18.270245, -30.275975)"></path>
+  <path d="M 61.318 13.521 C 63.941 13.521 64.405 17.15 64.711 19.21 C 65.168 22.297 65.13 25.634 63.526 28.416 C 62.966 29.39 59.995 29.411 59.402 28.416 C 55.233 21.426 58.64 13.521 61.318 13.521 Z" style="paint-order: stroke; fill: rgb(207, 78, 196);" transform="matrix(0.855646, 0.517562, -0.517562, 0.855646, 19.879066, -28.598195)"></path>
+</g>
+
+
+
+
+
+<g id="rightArm">
+  <path d="M 63.758 58.699 C 67.055 58.699 67.638 54.311 68.023 51.818 C 68.597 48.085 68.55 44.048 66.533 40.685 C 65.828 39.507 62.093 39.482 61.348 40.685 C 56.108 49.138 60.391 58.699 63.758 58.699 Z" style="fill: rgb(216, 216, 216); stroke: rgb(66, 61, 61); paint-order: stroke;" transform="matrix(-0.366709, 0.930345, -0.930326, -0.366709, 132.761365, 8.117871)"></path>
+  <circle style="fill: rgb(255, 255, 255);" transform="matrix(-0.625477, 0, 0, 0.481437, 517.815552, -112.008667)" cx="718.889" cy="340" r="5.964"></circle>
+</g>
+
+
+<g id="leftArm">
+  <path d="M 37.084 40.506 C 40.381 40.506 40.964 44.894 41.349 47.387 C 41.923 51.12 41.876 55.157 39.859 58.52 C 39.154 59.698 35.419 59.723 34.674 58.52 C 29.434 50.067 33.717 40.506 37.084 40.506 Z" style="fill: rgb(216, 216, 216); stroke: rgb(66, 61, 61); paint-order: stroke;" transform="matrix(0.366709, 0.930345, -0.930326, 0.366709, 69.874706, -2.731577)"></path>
+  <circle style="fill: rgb(255, 255, 255);" transform="matrix(-0.625477, 0, 0, 0.481437, 482.249207, -111.492928)" cx="718.889" cy="340" r="5.964"></circle>
+</g>
+
+
+<g id="rightLeg">
+  <path d="M 62.623 90.906 C 67.002 90.906 68.627 86.15 69.622 83.448 C 71.108 79.402 71.829 75.026 69.802 71.381 C 69.093 70.104 64.137 70.077 62.915 71.381 C 54.316 80.543 58.151 90.906 62.623 90.906 Z" style="fill: rgb(216, 216, 216); stroke: rgb(66, 61, 61); paint-order: stroke;" transform="matrix(-0.290992, 0.956735, -0.956715, -0.290992, 160.328309, 42.502134)"></path>
+  <circle style="fill: rgb(255, 255, 255);" transform="matrix(0.500088, -0.37568, 0.43624, 0.580715, -439.662323, 155.58049)" cx="718.889" cy="340" r="5.964" bx:origin="0.25 0.447"></circle>
+</g>
+
+
+
+<g id="leftLeg">
+  <path d="M 34.509 71.388 C 38.888 71.388 40.513 76.144 41.508 78.847 C 42.994 82.893 43.714 87.269 41.687 90.914 C 40.979 92.191 36.023 92.218 34.8 90.914 C 26.201 81.751 30.036 71.388 34.509 71.388 Z" style="fill: rgb(216, 216, 216); stroke: rgb(66, 61, 61); paint-order: stroke;" transform="matrix(0.290992, 0.956735, -0.956715, 0.290992, 103.839022, 23.149489)"></path>
+  <circle style="fill: rgb(255, 255, 255);" transform="matrix(-0.500088, -0.37568, -0.43624, 0.580715, 540.381409, 156.286652)" cx="718.889" cy="340" r="5.964" bx:origin="0.25 0.447"></circle>
+</g>
+
+
+
+
+
+<g id="body">
+  <ellipse style="fill: rgb(216, 216, 216); stroke:  rgb(66, 61, 61); paint-order: stroke;" cx="50.259" cy="62.975" rx="14.446" ry="18.512"></ellipse>
+  <ellipse style="fill: rgb(207, 78, 196);" cx="50.173" cy="70.501" rx="8.824" ry="8.564"></ellipse>
+</g>
+
+
+
+
+
+<g id="face" transform="matrix(1, 0, 0, 1, 0, 0.343639)">
+  <g>
+    <g>
+      <circle style="fill: rgb(216, 216, 216); stroke: rgb(66, 61, 61); paint-order: stroke;" cx="47.231" cy="26.99" r="13.005" transform="matrix(0.906876, 0, 0, 0.873618, 6.993477, 13.963232)"></circle>
+      <g transform="matrix(0.64575, 0, 0, 0.685112, 19.445894, 12.677747)" style="">
+        <circle style="fill: rgb(255, 255, 255); stroke: rgb(66, 61, 61); paint-order: stroke;" cx="52.422" cy="32.526" r="9.702" transform="matrix(0.269624, 0.15986, -0.155309, 0.261954, 44.144775, 15.84294)"></circle>
+        <ellipse style="fill: rgb(66, 61, 61);" cx="53.547" cy="33.651" rx="2.831" ry="2.182" transform="matrix(0.860176, 0.509997, -0.51836, 0.855218, 24.169726, -22.622305)"></ellipse>
+      </g>
+      <ellipse style="fill: rgb(207, 78, 196);" cx="49.795" cy="39.519" rx="3.952" ry="1.375"></ellipse>
+      <path style="stroke: rgb(0, 0, 0); paint-order: stroke; fill: none;" d="M 51.642 44.042 C 53.461 44.043 54.599 42.074 53.69 40.499 C 52.843 39.029 50.769 38.905 49.752 40.262" transform="matrix(-0.588072, 0.808817, -0.8088, -0.588072, 116.100489, 24.227202)"></path>
+      <g transform="matrix(-0.64575, 0, 0, 0.685112, 79.699722, 12.841313)" style="">
+        <circle style="fill: rgb(255, 255, 255); stroke: rgb(66, 61, 61); paint-order: stroke;" cx="52.422" cy="32.526" r="9.702" transform="matrix(0.269624, 0.15986, -0.155309, 0.261954, 44.144775, 15.84294)"></circle>
+        <ellipse style="fill: rgb(66, 61, 61);" cx="53.547" cy="33.651" rx="2.831" ry="2.182" transform="matrix(0.860176, 0.509997, -0.51836, 0.855218, 24.169726, -22.622305)"></ellipse>
+      </g>
+    </g>
+  </g>
+  <path style="stroke: rgb(0, 0, 0); paint-order: stroke; fill: none;" d="M 47.167 39.153 C 48.986 39.152 50.124 41.121 49.215 42.696 C 48.368 44.166 46.294 44.29 45.277 42.933" transform="matrix(0.532157, 0.846654, -0.846637, 0.532157, 57.327421, -20.713403)"></path>
+</g>
+
+
+    
+    
+    </svg>
+
+
+  </div>
+
+  <button id="result">Roll the DICE!</button>
+
+</div>
+
+</body>
+</html>
